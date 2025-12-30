@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroBg}
-          alt="Professional pool service team at work"
+          alt="Abhishek Swimming Pool - Professional pool services in Mangalore"
           className="w-full h-[120%] object-cover transition-transform duration-100"
           style={{ transform: `translateY(${parallaxOffset}px)` }}
         />
@@ -42,9 +42,9 @@ const Hero = () => {
             }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6">
-              Reliable pool
+              Premium Pool
               <br />
-              <span className="text-accent">solutions</span>
+              <span className="text-accent">Solutions</span>
             </h1>
 
             {/* Rating Badge */}
@@ -66,7 +66,7 @@ const Hero = () => {
               </div>
               <div>
                 <div className="flex items-center gap-1">
-                  {[1, 2, 3, 4, 5].map((i) => (
+                  {[1, 2, 3, 4].map((i) => (
                     <Star
                       key={i}
                       className="w-4 h-4 fill-accent text-accent"
@@ -76,10 +76,17 @@ const Hero = () => {
                       }}
                     />
                   ))}
-                  <span className="ml-2 font-bold">5.0</span>
+                  <Star
+                    className="w-4 h-4 fill-accent/50 text-accent"
+                    style={{
+                      opacity: isLoaded ? 1 : 0,
+                      transition: `opacity 0.3s ease-out 0.75s`,
+                    }}
+                  />
+                  <span className="ml-2 font-bold">4.5</span>
                 </div>
                 <p className="text-sm text-primary-foreground/70">
-                  2K+ User reviews
+                  Trusted in Mangalore
                 </p>
               </div>
             </div>
@@ -103,7 +110,7 @@ const Hero = () => {
                 className="gap-2"
               >
                 <Phone className="w-5 h-5" />
-                (555) 123-4567
+                Send Enquiry
               </Button>
             </div>
           </div>
@@ -145,14 +152,14 @@ const Hero = () => {
                   <option value="" disabled selected>
                     Type of service
                   </option>
-                  <option value="installation">New Installation</option>
+                  <option value="installation">Custom Pool Building</option>
                   <option value="repair">Pool Repair</option>
-                  <option value="maintenance">Maintenance</option>
-                  <option value="cleaning">Pool Cleaning</option>
+                  <option value="maintenance">Pool Maintenance</option>
+                  <option value="remodeling">Pool Remodeling</option>
                 </select>
                 <Input
                   type="text"
-                  placeholder="Zip code"
+                  placeholder="Pin code"
                   className="h-12 bg-secondary border-0"
                 />
               </div>
@@ -171,7 +178,7 @@ const Hero = () => {
                 />
               </div>
               <Button variant="accent" size="xl" className="w-full group">
-                <span className="relative z-10">Get our free quote</span>
+                <span className="relative z-10">Request a Quote</span>
               </Button>
             </form>
           </div>
