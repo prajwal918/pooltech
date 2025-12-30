@@ -40,7 +40,7 @@ const Header = () => {
               isScrolled ? 'text-foreground' : 'text-primary-foreground'
             }`}
           >
-            <span className="text-accent">Abhishek</span> Swimming Pool
+            <span className="text-accent">Pool</span>Tech
           </a>
 
           {/* Desktop Navigation */}

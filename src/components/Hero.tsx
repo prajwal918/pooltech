@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroBg}
-          alt="Abhishek Swimming Pool - Professional pool services in Mangalore"
+          alt="PoolTech - Professional pool services in Mangalore"
           className="w-full h-[120%] object-cover transition-transform duration-100"
           style={{ transform: `translateY(${parallaxOffset}px)` }}
         />
