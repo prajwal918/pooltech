@@ -39,12 +39,12 @@ const Process = () => {
             <div className="space-y-4 max-w-xl">
               <span className="badge-primary">How We Work</span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-                Our <span className="text-accent">proven</span> roofing process
+                Our <span className="text-accent">proven</span> pool process
               </h2>
             </div>
             <div className="space-y-4 max-w-md">
               <p className="text-muted-foreground">
-                Our 4-step process keeps roofing simple, with quality work and
+                Our 4-step process keeps pool services simple, with quality work and
                 clear communication at every step, from start to finish.
               </p>
               <Button variant="accent" className="gap-2">

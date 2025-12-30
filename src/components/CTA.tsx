@@ -9,11 +9,11 @@ const CTA = () => {
         <ScrollReveal animation="zoom-in">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-accent-foreground mb-6">
-              Ready to protect your home with a reliable roof?
+              Ready to enjoy a crystal clear pool?
             </h2>
             <p className="text-accent-foreground/80 text-lg mb-8 max-w-xl mx-auto">
               Get your free, no-obligation quote today and discover why thousands
-              of homeowners trust RoofFix.
+              of homeowners trust PoolTech.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button

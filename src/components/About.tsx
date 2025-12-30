@@ -23,7 +23,7 @@ const About = () => {
               <div className="space-y-4">
                 <span className="badge-primary">About Us</span>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-                  Your <span className="text-accent">trusted</span> roofing
+                  Your <span className="text-accent">trusted</span> pool
                   company
                 </h2>
               </div>
@@ -31,8 +31,8 @@ const About = () => {
               {/* Description */}
               <div className="space-y-6">
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  RoofFix has built a strong reputation for providing
-                  exceptional roofing services, handling everything from minor
+                  PoolTech has built a strong reputation for providing
+                  exceptional pool services, handling everything from minor
                   fixes to complex residential projects with care and expertise.
                 </p>
 
@@ -81,7 +81,7 @@ const About = () => {
           <div className="mt-16 rounded-2xl overflow-hidden shadow-strong">
             <img
               src={teamImage}
-              alt="RoofFix professional team"
+              alt="PoolTech professional team"
               className="w-full h-64 lg:h-96 object-cover"
             />
           </div>

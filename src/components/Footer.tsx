@@ -9,7 +9,7 @@ const Footer = () => {
       {/* Massive Background Brand Name */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
         <span className="text-[20vw] font-bold text-primary-foreground/[0.03] whitespace-nowrap select-none">
-          RoofFix
+          PoolTech
         </span>
       </div>
 
@@ -20,10 +20,10 @@ const Footer = () => {
           <ScrollReveal animation="fade-up" delay={0}>
             <div className="space-y-4">
               <a href="#" className="inline-block text-2xl font-bold">
-                <span className="text-accent">Roof</span>Fix
+                <span className="text-accent">Pool</span>Tech
               </a>
               <p className="text-primary-foreground/70 leading-relaxed">
-                Professional roofing solutions with over 20 years of experience.
+                Professional pool solutions with over 20 years of experience.
                 Quality craftsmanship you can trust.
               </p>
               <div className="flex gap-4">
@@ -86,12 +86,12 @@ const Footer = () => {
               <h4 className="font-bold text-lg mb-4">Our Services</h4>
               <ul className="space-y-3">
                 {[
-                  "Roof Installation",
-                  "Roof Repair",
-                  "Roof Replacement",
-                  "Roof Inspection",
+                  "Pool Installation",
+                  "Pool Repair",
+                  "Pool Renovation",
+                  "Pool Cleaning",
                   "Emergency Services",
-                  "Commercial Roofing",
+                  "Commercial Pools",
                 ].map((service) => (
                   <li key={service}>
                     <a
@@ -114,7 +114,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
                   <span className="text-primary-foreground/70">
-                    123 Roofing Lane, Suite 100
+                    123 Poolside Lane, Suite 100
                     <br />
                     City, State 12345
                   </span>
@@ -131,10 +131,10 @@ const Footer = () => {
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                   <a
-                    href="mailto:info@rooffix.com"
+                    href="mailto:info@pooltech.com"
                     className="text-primary-foreground/70 hover:text-accent transition-colors duration-200"
                   >
-                    info@rooffix.com
+                    info@pooltech.com
                   </a>
                 </li>
                 <li className="flex items-start gap-3">
@@ -155,7 +155,7 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10 relative z-10">
         <div className="container-custom py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-            <p>© {currentYear} RoofFix. All rights reserved.</p>
+            <p>© {currentYear} PoolTech. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-accent transition-colors duration-200">
                 Privacy Policy
