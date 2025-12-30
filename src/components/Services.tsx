@@ -8,27 +8,27 @@ import ScrollReveal from "@/components/ScrollReveal";
 const services = [
   {
     image: serviceInstallation,
-    title: "Pool Installation",
+    title: "Custom Pool Builders",
     description:
-      "Reliable installation of modern, long-lasting pool systems designed for durability, efficiency, and stunning aesthetics.",
+      "Expert custom pool construction tailored to your vision. We design and build stunning swimming pools that transform your outdoor space into a personal paradise.",
   },
   {
     image: serviceRepair,
-    title: "Pool Repair",
+    title: "Aquatic Solutions Contractors",
     description:
-      "Fast and dependable repair services for leaks, cracks, and equipment issues to keep your pool in perfect condition.",
+      "Complete aquatic solutions including water features, fountains, and specialized pool systems. We bring your water dreams to life with precision engineering.",
   },
   {
     image: serviceReplacement,
-    title: "Pool Renovation",
+    title: "Pool Remodeling Contractors",
     description:
-      "Complete pool renovation with premium materials, improving safety, energy efficiency, and property value.",
+      "Transform your existing pool with our professional remodeling services. Upgrade tiles, add new features, and give your pool a fresh, modern look.",
   },
   {
     image: serviceInspection,
-    title: "Pool Maintenance & Cleaning",
+    title: "Pool Maintenance & Build Services",
     description:
-      "Thorough pool checkups and regular maintenance to spot issues early and keep your pool crystal clear.",
+      "Comprehensive pool maintenance to keep your water crystal clear. Regular cleaning, chemical balancing, and equipment servicing by trained professionals.",
   },
 ];
 
@@ -39,10 +39,9 @@ const Services = () => {
         {/* Section Header */}
         <ScrollReveal animation="fade-up">
           <div className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
-            <span className="badge-primary mb-4 inline-block">Services</span>
+            <span className="badge-primary mb-4 inline-block">Our Services</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-              Your <span className="text-accent">pool</span> needs fully
-              covered
+              Popular <span className="text-accent">Services</span> We Offer
             </h2>
           </div>
         </ScrollReveal>

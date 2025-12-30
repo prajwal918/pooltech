@@ -3,22 +3,22 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    location: "Downtown",
+    name: "Rajesh Kumar",
+    location: "Murva, Mangalore",
     rating: 5,
-    text: "PoolTech exceeded our expectations! They installed our entire pool in just two weeks with minimal disruption. The team was professional, clean, and the quality is outstanding.",
+    text: "Abhishek Swimming Pool exceeded our expectations! They built our dream pool in just three weeks with minimal disruption. The team was professional and the quality is outstanding.",
   },
   {
-    name: "Michael Chen",
-    location: "Riverside",
+    name: "Priya Shetty",
+    location: "Kadri, Mangalore",
     rating: 5,
-    text: "After equipment failure, I needed urgent repairs. PoolTech responded same-day and had everything fixed within hours. Their emergency service is truly 24/7. Highly recommend!",
+    text: "Best swimming pool contractors in Mangalore! Their maintenance service is top-notch. They respond promptly and keep our pool crystal clear all year round.",
   },
   {
-    name: "Emily Rodriguez",
-    location: "Oakwood",
-    rating: 5,
-    text: "The maintenance service helped us catch issues before they became major problems. Their detailed report and fair pricing made the process simple and stress-free.",
+    name: "Mohammed Ashraf",
+    location: "Kankanady",
+    rating: 4,
+    text: "The remodeling work they did on our old pool was fantastic. Fair pricing, excellent craftsmanship, and great customer service. Highly recommend their services!",
   },
 ];
 

@@ -8,8 +8,8 @@ const Footer = () => {
     <footer className="bg-primary text-primary-foreground relative overflow-hidden">
       {/* Massive Background Brand Name */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-        <span className="text-[20vw] font-bold text-primary-foreground/[0.03] whitespace-nowrap select-none">
-          PoolTech
+        <span className="text-[15vw] font-bold text-primary-foreground/[0.03] whitespace-nowrap select-none">
+          Abhishek Pool
         </span>
       </div>
 
@@ -20,11 +20,10 @@ const Footer = () => {
           <ScrollReveal animation="fade-up" delay={0}>
             <div className="space-y-4">
               <a href="#" className="inline-block text-2xl font-bold">
-                <span className="text-accent">Pool</span>Tech
+                <span className="text-accent">Abhishek</span> Swimming Pool
               </a>
               <p className="text-primary-foreground/70 leading-relaxed">
-                Professional pool solutions with over 20 years of experience.
-                Quality craftsmanship you can trust.
+                Leading swimming pool contractor in Mangalore with 2+ years of experience. Quality craftsmanship you can trust.
               </p>
               <div className="flex gap-4">
                 <a
@@ -86,11 +85,11 @@ const Footer = () => {
               <h4 className="font-bold text-lg mb-4">Our Services</h4>
               <ul className="space-y-3">
                 {[
-                  "Pool Installation",
+                  "Custom Pool Builders",
                   "Pool Repair",
-                  "Pool Renovation",
-                  "Pool Cleaning",
-                  "Emergency Services",
+                  "Pool Remodeling",
+                  "Pool Maintenance",
+                  "Aquatic Solutions",
                   "Commercial Pools",
                 ].map((service) => (
                   <li key={service}>
@@ -114,35 +113,35 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
                   <span className="text-primary-foreground/70">
-                    123 Poolside Lane, Suite 100
+                    24 Abd, Old Airport Road, Murva
                     <br />
-                    City, State 12345
+                    Mangalore - 574243, Karnataka
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-accent flex-shrink-0" />
                   <a
-                    href="tel:+15551234567"
+                    href="tel:+915551234567"
                     className="text-primary-foreground/70 hover:text-accent transition-colors duration-200"
                   >
-                    (555) 123-4567
+                    Show Number
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                   <a
-                    href="mailto:info@pooltech.com"
+                    href="mailto:info@abhishekswimmingpool.com"
                     className="text-primary-foreground/70 hover:text-accent transition-colors duration-200"
                   >
-                    info@pooltech.com
+                    Send Enquiry
                   </a>
                 </li>
                 <li className="flex items-start gap-3">
                   <Clock className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
                   <span className="text-primary-foreground/70">
-                    Mon - Fri: 7AM - 7PM
+                    Mon - Sun: 7:30 AM - 1:30 PM
                     <br />
-                    Sat: 8AM - 5PM
+                    Open All Days
                   </span>
                 </li>
               </ul>
@@ -155,7 +154,7 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10 relative z-10">
         <div className="container-custom py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-            <p>© {currentYear} PoolTech. All rights reserved.</p>
+            <p>© {currentYear} Abhishek Swimming Pool. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-accent transition-colors duration-200">
                 Privacy Policy

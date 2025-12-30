@@ -7,25 +7,25 @@ const steps = [
     icon: ClipboardCheck,
     index: "01",
     title: "Free Consultation",
-    description: "Thorough inspection and no obligation estimate",
+    description: "Thorough site inspection and no obligation estimate for your pool project",
   },
   {
     icon: FileText,
     index: "02",
-    title: "Detailed Plan",
-    description: "Comprehensive plans with materials timeline and specs",
+    title: "Custom Design",
+    description: "Comprehensive pool designs with materials, timeline and specifications",
   },
   {
     icon: Wrench,
     index: "03",
-    title: "Expert Installation",
-    description: "Precision execution with safety and quality standards",
+    title: "Expert Construction",
+    description: "Precision execution with safety and quality standards at every step",
   },
   {
     icon: CheckCircle,
     index: "04",
-    title: "Final Inspection",
-    description: "Thorough inspection and complete cleanup",
+    title: "Final Handover",
+    description: "Thorough inspection, water filling, and complete site cleanup",
   },
 ];
 
@@ -39,12 +39,12 @@ const Process = () => {
             <div className="space-y-4 max-w-xl">
               <span className="badge-primary">How We Work</span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-                Our <span className="text-accent">proven</span> pool process
+                Our <span className="text-accent">Proven</span> Pool Building Process
               </h2>
             </div>
             <div className="space-y-4 max-w-md">
               <p className="text-muted-foreground">
-                Our 4-step process keeps pool services simple, with quality work and
+                Our 4-step process keeps pool construction simple, with quality work and
                 clear communication at every step, from start to finish.
               </p>
               <Button variant="accent" className="gap-2">

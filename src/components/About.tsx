@@ -5,10 +5,10 @@ import ScrollReveal from "@/components/ScrollReveal";
 import CountUpNumber from "@/components/CountUpNumber";
 
 const stats = [
-  { value: 20, suffix: "+", label: "Years of experience" },
-  { value: 99, suffix: "%", label: "Client satisfaction" },
-  { value: 3, suffix: "K+", label: "Projects completed" },
-  { value: 24, suffix: "/7", label: "Emergency service" },
+  { value: 2, suffix: "+", label: "Years in Business" },
+  { value: 100, suffix: "+", label: "Happy Customers" },
+  { value: 50, suffix: "+", label: "Projects Completed" },
+  { value: 7, suffix: " Days", label: "Open Weekly" },
 ];
 
 const About = () => {
@@ -23,17 +23,18 @@ const About = () => {
               <div className="space-y-4">
                 <span className="badge-primary">About Us</span>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-                  Your <span className="text-accent">trusted</span> pool
-                  company
+                  Your <span className="text-accent">trusted</span> swimming pool
+                  contractor
                 </h2>
               </div>
 
               {/* Description */}
               <div className="space-y-6">
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  PoolTech has built a strong reputation for providing
-                  exceptional pool services, handling everything from minor
-                  fixes to complex residential projects with care and expertise.
+                  Established in 2023, Abhishek Swimming Pool in Murva, Mangalore is a top player in the category of Swimming Pool Contractors. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Mangalore.
+                </p>
+                <p className="text-muted-foreground text-lg leading-relaxed">
+                  We have a wide range of products and services to cater to the varied requirements of our customers. The staff at this establishment are courteous and prompt at providing any assistance. Located at Old Airport Road, it is easy to locate and accessible by various modes of transport.
                 </p>
 
                 {/* Action Buttons */}
@@ -81,7 +82,7 @@ const About = () => {
           <div className="mt-16 rounded-2xl overflow-hidden shadow-strong">
             <img
               src={teamImage}
-              alt="PoolTech professional team"
+              alt="Abhishek Swimming Pool professional team in Mangalore"
               className="w-full h-64 lg:h-96 object-cover"
             />
           </div>
