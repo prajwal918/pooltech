@@ -12,7 +12,7 @@ const CTA = () => {
               Ready to build your dream pool?
             </h2>
             <p className="text-accent-foreground/80 text-lg mb-8 max-w-xl mx-auto">
-              Get your free, no-obligation quote today and discover why customers in Mangalore trust Abhishek Swimming Pool.
+              Get your free, no-obligation quote today and discover why customers in Mangalore trust PoolTech.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button

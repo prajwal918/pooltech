@@ -6,7 +6,7 @@ const testimonials = [
     name: "Rajesh Kumar",
     location: "Murva, Mangalore",
     rating: 5,
-    text: "Abhishek Swimming Pool exceeded our expectations! They built our dream pool in just three weeks with minimal disruption. The team was professional and the quality is outstanding.",
+    text: "PoolTech exceeded our expectations! They built our dream pool in just three weeks with minimal disruption. The team was professional and the quality is outstanding.",
   },
   {
     name: "Priya Shetty",

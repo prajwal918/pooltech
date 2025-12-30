@@ -36,11 +36,11 @@ const Header = () => {
           {/* Logo */}
           <a 
             href="#" 
-            className={`flex items-center gap-2 text-xl lg:text-2xl font-bold transition-colors duration-300 ${
+            className={`flex items-center gap-2 text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-foreground' : 'text-primary-foreground'
             }`}
           >
-            <span className="text-accent">Abhishek</span> Swimming Pool
+            <span className="text-accent">Pool</span>Tech
           </a>
 
           {/* Desktop Navigation */}
