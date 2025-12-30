@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "relative inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 overflow-hidden",
   {
     variants: {
       variant: {
@@ -15,10 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        accent: "bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300",
-        hero: "bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-base",
+        accent: "bg-accent text-accent-foreground shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 before:absolute before:inset-0 before:bg-gradient-to-r before:from-accent before:to-accent/80 before:transition-transform before:duration-500 hover:before:scale-110",
+        hero: "bg-accent text-accent-foreground shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-base before:absolute before:inset-0 before:bg-gradient-to-r before:from-accent before:to-accent/80 before:transition-transform before:duration-500 hover:before:scale-110",
         "hero-secondary": "bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-base",
-        "outline-light": "border-2 border-primary-foreground/30 text-primary-foreground bg-transparent hover:bg-primary-foreground/10 transition-all duration-300",
+        "outline-light": "border-2 border-primary-foreground/30 text-primary-foreground bg-transparent hover:bg-primary-foreground/10 hover:border-primary-foreground/50 transition-all duration-300",
+        "fill": "bg-primary text-primary-foreground border-2 border-primary before:absolute before:inset-0 before:bg-accent before:origin-left before:scale-x-0 before:transition-transform before:duration-500 hover:before:scale-x-100 hover:text-accent-foreground hover:border-accent",
       },
       size: {
         default: "h-10 px-4 py-2",
@@ -42,9 +43,13 @@ export interface ButtonProps
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, asChild = false, ...props }, ref) => {
+  ({ className, variant, size, asChild = false, children, ...props }, ref) => {
     const Comp = asChild ? Slot : "button";
-    return <Comp className={cn(buttonVariants({ variant, size, className }))} ref={ref} {...props} />;
+    return (
+      <Comp className={cn(buttonVariants({ variant, size, className }))} ref={ref} {...props}>
+        <span className="relative z-10 flex items-center gap-2">{children}</span>
+      </Comp>
+    );
   },
 );
 Button.displayName = "Button";
