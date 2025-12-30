@@ -8,8 +8,8 @@ const Footer = () => {
     <footer className="bg-primary text-primary-foreground relative overflow-hidden">
       {/* Massive Background Brand Name */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-        <span className="text-[20vw] font-bold text-primary-foreground/[0.03] whitespace-nowrap select-none">
-          PoolTech
+        <span className="text-[15vw] font-bold text-primary-foreground/[0.03] whitespace-nowrap select-none">
+          Abhishek Pool
         </span>
       </div>
 
@@ -20,7 +20,7 @@ const Footer = () => {
           <ScrollReveal animation="fade-up" delay={0}>
             <div className="space-y-4">
               <a href="#" className="inline-block text-2xl font-bold">
-                <span className="text-accent">Pool</span>Tech
+                <span className="text-accent">Abhishek</span> Swimming Pool
               </a>
               <p className="text-primary-foreground/70 leading-relaxed">
                 Leading swimming pool contractor in Mangalore with 2+ years of experience. Quality craftsmanship you can trust.
@@ -130,7 +130,7 @@ const Footer = () => {
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                   <a
-                    href="mailto:info@pooltech.com"
+                    href="mailto:info@abhishekswimmingpool.com"
                     className="text-primary-foreground/70 hover:text-accent transition-colors duration-200"
                   >
                     Send Enquiry
@@ -154,7 +154,7 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10 relative z-10">
         <div className="container-custom py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-            <p>© {currentYear} PoolTech. All rights reserved.</p>
+            <p>© {currentYear} Abhishek Swimming Pool. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-accent transition-colors duration-200">
                 Privacy Policy

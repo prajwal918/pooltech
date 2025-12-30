@@ -31,7 +31,7 @@ const About = () => {
               {/* Description */}
               <div className="space-y-6">
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  Established in 2023, PoolTech in Murva, Mangalore is a top player in the category of Swimming Pool Contractors. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Mangalore.
+                  Established in 2023, Abhishek Swimming Pool in Murva, Mangalore is a top player in the category of Swimming Pool Contractors. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Mangalore.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   We have a wide range of products and services to cater to the varied requirements of our customers. The staff at this establishment are courteous and prompt at providing any assistance. Located at Old Airport Road, it is easy to locate and accessible by various modes of transport.
@@ -82,7 +82,7 @@ const About = () => {
           <div className="mt-16 rounded-2xl overflow-hidden shadow-strong">
             <img
               src={teamImage}
-              alt="PoolTech professional team in Mangalore"
+              alt="Abhishek Swimming Pool professional team in Mangalore"
               className="w-full h-64 lg:h-96 object-cover"
             />
           </div>
