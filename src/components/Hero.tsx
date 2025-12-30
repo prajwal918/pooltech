@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroBg}
-          alt="Professional roofing team at work"
+          alt="Professional pool service team at work"
           className="w-full h-[120%] object-cover transition-transform duration-100"
           style={{ transform: `translateY(${parallaxOffset}px)` }}
         />
@@ -42,7 +42,7 @@ const Hero = () => {
             }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6">
-              Reliable roofing
+              Reliable pool
               <br />
               <span className="text-accent">solutions</span>
             </h1>
@@ -118,7 +118,7 @@ const Hero = () => {
             }}
           >
             <h2 className="text-xl lg:text-2xl font-bold text-card-foreground mb-6">
-              Get your free roofing quote today!
+              Get your free pool quote today!
             </h2>
             <form className="space-y-4">
               <div>
@@ -146,9 +146,9 @@ const Hero = () => {
                     Type of service
                   </option>
                   <option value="installation">New Installation</option>
-                  <option value="repair">Roof Repair</option>
-                  <option value="replacement">Roof Replacement</option>
-                  <option value="inspection">Inspection</option>
+                  <option value="repair">Pool Repair</option>
+                  <option value="maintenance">Maintenance</option>
+                  <option value="cleaning">Pool Cleaning</option>
                 </select>
                 <Input
                   type="text"

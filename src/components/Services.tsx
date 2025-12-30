@@ -8,27 +8,27 @@ import ScrollReveal from "@/components/ScrollReveal";
 const services = [
   {
     image: serviceInstallation,
-    title: "Roof Installation",
+    title: "Pool Installation",
     description:
-      "Reliable installation of modern, long-lasting roofing systems designed for strength, efficiency, and curb appeal.",
+      "Reliable installation of modern, long-lasting pool systems designed for durability, efficiency, and stunning aesthetics.",
   },
   {
     image: serviceRepair,
-    title: "Roof Repair",
+    title: "Pool Repair",
     description:
-      "Fast and dependable repair services for leaks, cracked shingles, and storm damage to keep your home protected.",
+      "Fast and dependable repair services for leaks, cracks, and equipment issues to keep your pool in perfect condition.",
   },
   {
     image: serviceReplacement,
-    title: "Roof Replacement",
+    title: "Pool Renovation",
     description:
-      "Complete roof replacement with durable materials, improving safety, energy efficiency, and property value.",
+      "Complete pool renovation with premium materials, improving safety, energy efficiency, and property value.",
   },
   {
     image: serviceInspection,
-    title: "Roof Inspection & Maintenance",
+    title: "Pool Maintenance & Cleaning",
     description:
-      "Thorough roof checkups and preventative maintenance to spot issues early and extend the life of your roof.",
+      "Thorough pool checkups and regular maintenance to spot issues early and keep your pool crystal clear.",
   },
 ];
 
@@ -41,7 +41,7 @@ const Services = () => {
           <div className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
             <span className="badge-primary mb-4 inline-block">Services</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-              Your <span className="text-accent">roofing</span> needs fully
+              Your <span className="text-accent">pool</span> needs fully
               covered
             </h2>
           </div>

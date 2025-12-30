@@ -6,19 +6,19 @@ const testimonials = [
     name: "Sarah Johnson",
     location: "Downtown",
     rating: 5,
-    text: "RoofFix exceeded our expectations! They replaced our entire roof in just two days with minimal disruption. The team was professional, clean, and the quality is outstanding.",
+    text: "PoolTech exceeded our expectations! They installed our entire pool in just two weeks with minimal disruption. The team was professional, clean, and the quality is outstanding.",
   },
   {
     name: "Michael Chen",
     location: "Riverside",
     rating: 5,
-    text: "After storm damage, I needed urgent repairs. RoofFix responded same-day and had everything fixed within hours. Their emergency service is truly 24/7. Highly recommend!",
+    text: "After equipment failure, I needed urgent repairs. PoolTech responded same-day and had everything fixed within hours. Their emergency service is truly 24/7. Highly recommend!",
   },
   {
     name: "Emily Rodriguez",
     location: "Oakwood",
     rating: 5,
-    text: "The inspection service helped us catch issues before they became major problems. Their detailed report and fair pricing made the maintenance process simple and stress-free.",
+    text: "The maintenance service helped us catch issues before they became major problems. Their detailed report and fair pricing made the process simple and stress-free.",
   },
 ];
 
