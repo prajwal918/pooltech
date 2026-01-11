@@ -113,27 +113,27 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
                   <span className="text-primary-foreground/70">
-                    24 Abd, Old Airport Road, Murva
+                    123 Pool Lane, Suite 100
                     <br />
-                    Mangalore - 574243, Karnataka
+                    City, State - Zip
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-accent flex-shrink-0" />
                   <a
-                    href="tel:+915551234567"
+                    href="tel:+15551234567"
                     className="text-primary-foreground/70 hover:text-accent transition-colors duration-200"
                   >
-                    Show Number
+                    (555) 123-4567
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                   <a
-                    href="mailto:info@abhishekswimmingpool.com"
+                    href="mailto:info@pooltech.com"
                     className="text-primary-foreground/70 hover:text-accent transition-colors duration-200"
                   >
-                    Send Enquiry
+                    info@pooltech.com
                   </a>
                 </li>
                 <li className="flex items-start gap-3">

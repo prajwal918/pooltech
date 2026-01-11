@@ -4,19 +4,19 @@ import ScrollReveal from "@/components/ScrollReveal";
 const testimonials = [
   {
     name: "Rajesh Kumar",
-    location: "Murva, Mangalore",
+    location: "City, State",
     rating: 5,
     text: "PoolTech exceeded our expectations! They built our dream pool in just three weeks with minimal disruption. The team was professional and the quality is outstanding.",
   },
   {
     name: "Priya Shetty",
-    location: "Kadri, Mangalore",
+    location: "City, State",
     rating: 5,
-    text: "Best swimming pool contractors in Mangalore! Their maintenance service is top-notch. They respond promptly and keep our pool crystal clear all year round.",
+    text: "Best swimming pool contractors! Their maintenance service is top-notch. They respond promptly and keep our pool crystal clear all year round.",
   },
   {
     name: "Mohammed Ashraf",
-    location: "Kankanady",
+    location: "City, State",
     rating: 4,
     text: "The remodeling work they did on our old pool was fantastic. Fair pricing, excellent craftsmanship, and great customer service. Highly recommend their services!",
   },

@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# 🏊 PoolTech - Official Website
+### Professional Swimming Pool Construction & Maintenance Services
 
-## Project info
+## 🌟 About
+**PoolTech** is a leading swimming pool contractor dedicated to transforming backyards into personal paradises. We specialize in providing comprehensive pool solutions including custom installation, renovation, repair, and maintenance for residential and commercial properties.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
+*   **Responsive Design**: Mobile-first approach ensuring a seamless experience across all devices.
+*   **Modern UI/UX**: Built with React and Tailwind CSS for a sleek, fast, and interactive user interface.
+*   **Service Showcase**: Detailed sections for pool installation, repair, renovation, and inspection.
+*   **Interactive Quote Form**: Easy-to-use request form for potential clients to get estimates.
+*   **Testimonials Section**: Highlighting customer satisfaction and project success stories.
+*   **SEO Optimized**: structured data and semantic HTML for better search engine visibility.
 
-## How can I edit this code?
+## 🛠️ Technologies Used
+*   **Frontend**: React 18, TypeScript, Vite
+*   **Styling**: Tailwind CSS, Shadcn UI
+*   **Icons**: Lucide React
+*   **Animation**: CSS Animations, Transistions
+*   **Deployment**: Ready for Netlify/Vercel/GitHub Pages
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📁 Project Structure
+```
+sweet-fix/
+├── public/             # Static assets
+├── src/
+│   ├── assets/         # Images and media
+│   ├── components/     # Reusable UI components
+│   │   ├── ui/         # Shadcn UI primitives
+│   │   ├── Header.tsx  # Navigation
+│   │   ├── Footer.tsx  # Footer & Contact
+│   │   └── ...
+│   ├── pages/          # Main application pages
+│   │   └── Index.tsx   # Landing page
+│   ├── lib/            # Utility functions
+│   ├── App.tsx         # Root component
+│   └── main.tsx        # Entry point
+├── index.html          # HTML entry
+├── package.json        # Dependencies
+└── README.md           # Project documentation
 ```
 
-**Edit a file directly in GitHub**
+## 🎯 Key Sections
+*   **Hero Section**: Captivating imagery with clear calls-to-action.
+*   **Services**: Detailed breakdown of Installation, Repair, Renovation, and Inspection.
+*   **Process**: Step-by-step guide on how we work (Consultation -> Plan -> Install -> Inspect).
+*   **Testimonials**: Real reviews from satisfied homeowners.
+*   **Contact**: Integrated quote request form and direct contact information.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Getting Started
 
-**Use GitHub Codespaces**
+### Local Development
+1.  **Clone the repository**
+    ```bash
+    git clone <repository-url>
+    cd sweet-fix
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-## What technologies are used for this project?
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+    The site will be available at `http://localhost:8080`.
 
-This project is built with:
+### Build for Production
+```bash
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📱 Responsive Design
+*   **Desktop**: Full-width layouts with immersive visuals.
+*   **Tablet**: Adaptive grids and readable typography.
+*   **Mobile**: Touch-optimized navigation and form elements.
 
-## How can I deploy this project?
+## 📞 Contact Information
+*   **Phone**: (555) 123-4567
+*   **Email**: info@pooltech.com
+*   **Address**: 123 Pool Lane, Suite 100
+*   **Hours**: Mon - Fri: 7AM - 7PM
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📄 License
+This project is proprietary to **PoolTech**. All rights reserved.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+Built with ❤️ by the **PoolTech Development Team**

@@ -31,10 +31,10 @@ const About = () => {
               {/* Description */}
               <div className="space-y-6">
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  Established in 2023, PoolTech in Murva, Mangalore is a top player in the category of Swimming Pool Contractors. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Mangalore.
+                  Established in 2023, PoolTech is a top player in the category of Swimming Pool Contractors. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of the region.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  We have a wide range of products and services to cater to the varied requirements of our customers. The staff at this establishment are courteous and prompt at providing any assistance. Located at Old Airport Road, it is easy to locate and accessible by various modes of transport.
+                  We have a wide range of products and services to cater to the varied requirements of our customers. The staff at this establishment are courteous and prompt at providing any assistance. Located at 123 Pool Lane, it is easy to locate and accessible by various modes of transport.
                 </p>
 
                 {/* Action Buttons */}

@@ -86,7 +86,7 @@ const Hero = () => {
                   <span className="ml-2 font-bold">4.5</span>
                 </div>
                 <p className="text-sm text-primary-foreground/70">
-                  Trusted in Mangalore
+                  Trusted by Homeowners
                 </p>
               </div>
             </div>
