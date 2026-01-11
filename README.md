@@ -21,7 +21,7 @@
 
 ## 📁 Project Structure
 ```
-sweet-fix/
+pooltech/
 ├── public/             # Static assets
 ├── src/
 │   ├── assets/         # Images and media
@@ -52,8 +52,8 @@ sweet-fix/
 ### Local Development
 1.  **Clone the repository**
     ```bash
-    git clone <repository-url>
-    cd sweet-fix
+    git clone https://github.com/prajwal918/pooltech.git
+    cd pooltech
     ```
 
 2.  **Install dependencies**
