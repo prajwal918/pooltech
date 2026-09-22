@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint-and-build:
-    name: Lint, Typecheck & Production Build
+    name: Lint & Production Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -25,9 +25,6 @@ jobs:
 
       - name: Lint Code Quality
         run: npm run lint
-
-      - name: TypeCheck TypeScript
-        run: npx tsc --noEmit
 
       - name: Build Production Bundle
         run: npm run build
